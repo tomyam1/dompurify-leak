@@ -1,0 +1,14 @@
+{
+  "name": "@tepez/dompurify-leak",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "node --expose-gc memory-leak-demo.js"
+  },
+  "license": "UNLICENSED",
+  "description": "",
+  "dependencies": {
+    "dompurify": "^3.2.5",
+    "jsdom": "^26.1.0"
+  }
+}
